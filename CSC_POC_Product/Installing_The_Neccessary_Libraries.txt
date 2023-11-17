@@ -1,0 +1,11 @@
+All current library versions requried are saved in the "requirements.txt" file.
+
+To install all the required libraries on another machine from your GitHub project, you can clone or use this repository and execute the following command:
+
+
+pip install -r requirements.txt
+
+
+This command will install all the listed dependencies and their specified versions from the requirements.txt file.
+
+Note that this command must be done in the terminal and the terminal must have the directory set to this project and its files. 
