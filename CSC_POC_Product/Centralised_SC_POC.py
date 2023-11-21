@@ -217,15 +217,6 @@ def create_smart_contract():
     aoi_feature = ee.Feature(aoi_geo)
    
     aoi = ee.FeatureCollection([aoi_feature])
-   
-    
-
-    #users/thomaswalton45/Tanbi_Wetland_National_Park_Study_Area
-    #P:/Dissertation/code/Study_Areas/Tanbi_Wetland_National_Park/Tanbi_Wetland_Park_Outline
-    #print(aoi)
-    
-    
-    
     
     '''
     Specify the Date 
