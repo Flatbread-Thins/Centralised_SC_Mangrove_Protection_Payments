@@ -214,8 +214,11 @@ def create_smart_contract():
     #Use Shapely's mapping function to convert the Shapely geometry to a format that Earth Engine understands 
     #(GeoJSON format)
     aoi_geo =  ee.Geometry(mapping(geometry))
+
+    #Convert geometry to a feature
     aoi_feature = ee.Feature(aoi_geo)
-   
+
+    #Convert feature to a feature collection
     aoi = ee.FeatureCollection([aoi_feature])
     
     '''
