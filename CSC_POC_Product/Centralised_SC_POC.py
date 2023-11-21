@@ -735,7 +735,7 @@ def validate_RF(validationPts,imageCl, trainedRf, bands):
     
     # Run the classifier multiple times
     for i in range(num_runs):
-        # Load the input image you want to classify (e.g., Landsat image)
+        # Load the input image you want to classify (e.g., Fused Sentinel-1 and Sentinel-2 image)
         input_image = imageCl
     
         # Classify the image with the same classifier and bands used for training
